@@ -1,0 +1,52 @@
+import { EventItem } from '../types';
+
+export const EVENTS_DATA: EventItem[] = [
+  {
+    id: 'evt-1',
+    title: 'FRAME BY FRAME: AUTUMN SCREENING',
+    category: 'Screening',
+    date: 'OCTOBER 14, 2026',
+    time: '18:30 IST',
+    location: 'MAIN AUDITORIUM & OPEN AIR LAWNS',
+    description: 'An exclusive premiere night featuring 8 student short films on the big screen, followed by live Q&A with student directors and guest indie filmmakers.',
+    speakerOrHost: 'Hosted by CINERA Curatorial Team',
+    badge: 'FLAGSHIP EVENT',
+    registrationOpen: true,
+  },
+  {
+    id: 'evt-2',
+    title: 'THE 24-HOUR FILM CHALLENGE',
+    category: 'Challenge',
+    date: 'NOVEMBER 04-05, 2026',
+    time: '10:00 AM START',
+    location: 'CAMPUS CREATIVE HUB / ALL LOCATIONS',
+    description: '48 teams, 24 hours, 1 secret prompt & prop. Write, shoot, edit, and score an original 3-minute film in a single high-intensity weekend.',
+    speakerOrHost: 'Judged by Industry Mentors & Alumni',
+    badge: 'ANNUAL COMPETITION',
+    registrationOpen: true,
+  },
+  {
+    id: 'evt-3',
+    title: 'ANAMORPHIC & ATMOSPHERE: MASTERCLASS',
+    category: 'Masterclass',
+    date: 'OCTOBER 28, 2026',
+    time: '15:00 IST',
+    location: 'CINERA BLACKBOX STUDIO B',
+    description: 'Hands-on workshop exploring lens choice, color temperature control, haze machines, and low-light sensor dynamics with cinema gear.',
+    speakerOrHost: 'Lead DP: Vikramaditya N.',
+    badge: 'HANDS-ON GEAR LAB',
+    registrationOpen: true,
+  },
+  {
+    id: 'evt-4',
+    title: 'SCRIPT TO SCREEN: STORY CIRCLE',
+    category: 'Workshop',
+    date: 'NOVEMBER 18, 2026',
+    time: '17:00 IST',
+    location: 'STUDENT CENTER ROOM 402',
+    description: 'Bring raw story beats, loglines, or rough script pages for constructive table reads, character arc development, and peer feedback.',
+    speakerOrHost: 'Writers Room Leads',
+    badge: 'WEEKLY CIRCLE',
+    registrationOpen: true,
+  }
+];
